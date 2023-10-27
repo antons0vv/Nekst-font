@@ -1,0 +1,1435 @@
+@font-face {
+    font-family: "Nekst Thin";
+    src: url("../fonts/Nekst-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Light";
+    src: url("../fonts/Nekst-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Regular";
+    src: url("../fonts/Nekst-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Medium";
+    src: url("../fonts/Nekst-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Semibold";
+    src: url("../fonts/Nekst-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Bold";
+    src: url("../fonts/Nekst-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Nekst Black";
+    src: url("../fonts/Nekst-Black.woff2") format("woff2");
+}
+
+
+body {
+    min-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    overflow: hidden;
+
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ЭКРАН ОБЛОЖКА */
+
+.section_bicycle {
+    width: 100%;
+    height: 1280px;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bicycle {
+    position: absolute;
+
+    z-index: -1;
+}
+
+.head {
+
+    width: 100%;
+    height: 1200px;
+    display: flex;
+
+    position: relative;
+
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+
+#head_h1 {
+    font-family: "Nekst Black";
+    font-size: 320px;
+    padding-top: 260px;
+}
+
+
+.rec_deg_text {
+    width: 100%;
+    height: 625px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deg_rectangle {
+    width: 1540px;
+    height: 325px;
+    background-color: #FF4444;
+
+    rotate: -7deg;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.main_p {
+    font-family: "Nekst Regular";
+    font-size: 35px;
+    line-height: normal;
+    /* margin-left: 60px; */
+}
+
+#head_txt {
+    color: black;
+
+    margin-right: 200px;
+
+    z-index: 1;
+}
+
+/* ЭКРАН ХЭШТЕГИ */
+
+.section_hashtags {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+    height: 770px;
+}
+
+.hash_line {
+    position: absolute;
+
+    height: 100%;
+
+    z-index: -1;
+}
+
+
+.hash_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: inherit;
+
+    z-index: 1;
+}
+
+.hash_p {
+    position: absolute;
+}
+
+#wooow {
+    color: #FFDF37;
+
+    font-family: "Nekst Black";
+    font-size: 65px;
+
+
+    margin-right: 900px;
+    margin-bottom: 520px;
+}
+
+#sporty {
+    color: #FFDF37;
+
+    font-family: "Nekst Bold";
+    font-size: 85px;
+
+    margin-bottom: 570px;
+}
+
+#weights {
+    color: #f44;
+
+    font-family: "Nekst Medium";
+    font-size: 50px;
+
+    margin-bottom: 670px;
+    margin-left: 800px
+}
+
+#bauhaus {
+    color: #f44;
+
+    font-family: "Nekst Regular";
+    font-size: 104px;
+
+    margin-bottom: 370px;
+    margin-left: 850px
+}
+
+#speed {
+    color: #FFDF37;
+
+    font-family: "Nekst Bold";
+    font-size: 65px;
+
+    margin-bottom: 170px;
+    margin-right: 1150px;
+}
+
+#cycling {
+    color: #f44;
+
+    font-family: "Nekst Medium";
+    font-size: 58px;
+
+    margin-bottom: 350px;
+    margin-right: 500px;
+}
+
+#variable {
+    color: #f44;
+
+    font-family: "Nekst Black";
+    font-size: 81px;
+
+    margin-right: 700px;
+
+}
+
+#ridiiing {
+    color: #f44;
+
+    font-family: "Nekst SemiBold";
+    font-size: 115px;
+
+    margin-left: 50px;
+    margin-bottom: 140px;
+}
+
+#team {
+    color: #FFDF37;
+
+    font-family: "Nekst Medium";
+    font-size: 42px;
+
+    margin-left: 910px;
+    margin-bottom: 10px;
+}
+
+#sans {
+    color: #FFDF37;
+
+    font-family: "Nekst Light";
+    font-size: 62px;
+
+    margin-left: 1230px;
+    margin-bottom: 150px;
+}
+
+#fast {
+    color: #f44;
+
+    font-family: "Nekst Bold";
+    font-size: 109px;
+
+    margin-right: 1050px;
+    margin-top: 330px;
+}
+
+#races {
+    color: #FFDF37;
+
+    font-family: "Nekst Regular";
+    font-size: 50px;
+
+    margin-top: 210px;
+    margin-right: 150px;
+}
+
+#modern {
+    color: #F44;
+
+    font-family: "Nekst Black";
+    font-size: 125px;
+
+    margin-top: 130px;
+    margin-left: 620px;
+}
+
+#super {
+    color: #FFDF37;
+
+    font-family: "Nekst Regular";
+    font-size: 150px;
+
+    margin-top: 480px;
+    margin-right: 300px;
+}
+
+#road {
+    color: #FFDF37;
+
+    font-family: "Nekst Medium";
+    font-size: 42px;
+
+    margin-top: 400px;
+    margin-left: 420px;
+}
+
+#grotesk {
+    color: #F44;
+
+    font-family: "Nekst Medium";
+    font-size: 58px;
+
+    margin-top: 360px;
+    margin-left: 1020px;
+}
+
+/* ЭКРАН НАЧЕРТАНИЯ */
+
+.section_weight {
+    position: relative;
+
+    height: 1400px;
+    width: 100%;
+
+    margin-bottom: 130px;
+}
+
+.weight_text {
+    margin-left: 60px;
+    z-index: 1;
+}
+
+.weight_rec {
+    width: 2000px;
+    height: 1280px;
+    background-color: #FFDF37;
+
+    position: absolute;
+    rotate: -7deg;
+    z-index: -1;
+
+    margin-left: -100px;
+}
+
+
+.weight_block_text {
+    position: absolute;
+}
+
+.weight_blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+
+    gap: 50px 55px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    margin-bottom: 80px;
+    margin-top: 250px;
+
+    max-width: 1440px;
+}
+
+.n_h2 {
+    font-size: 70px;
+    text-align: center;
+    background-color: #F44;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: -2px;
+}
+
+.n_h1 {
+    font-size: 190px;
+    text-align: center;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: -10px;
+}
+
+#Black {
+    font-family: "Nekst Black";
+}
+
+#Black-m {
+    rotate: 3deg;
+}
+
+#Bold {
+    font-family: "Nekst Bold";
+}
+
+#Bold-m {
+    rotate: -3deg;
+}
+
+#SemiBold {
+    font-family: "Nekst SemiBold";
+}
+
+#SemiBold-m {
+    rotate: 3deg;
+}
+
+#Medium {
+    font-family: "Nekst Medium";
+}
+
+#Medium-m {
+    rotate: -3.5deg;
+}
+
+#Regular {
+    font-family: "Nekst Regular";
+}
+
+#Regular-m {
+    rotate: 4.5deg;
+}
+
+#Light {
+    font-family: "Nekst Light";
+}
+
+#Light-m {
+    rotate: -3.5deg;
+}
+
+#Thin {
+    font-family: "Nekst Thin";
+}
+
+#Thin-m {
+    rotate: -4.5deg;
+}
+
+/* ЭКРАН КАРТА */
+
+.section_map {
+    width: 100%;
+    height: 1116px;
+
+    margin-left: 60px;
+
+    margin-bottom: 130px;
+}
+
+.line_map {
+    display: flex;
+    justify-content: center;
+}
+
+.svg_map {
+    position: absolute;
+    margin-top: 40px;
+
+    z-index: -1;
+}
+
+#svg_dashed {
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+.text_map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.h1_map_main {
+    width: 1290px;
+    height: 1100px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h1_map {
+    font-family: "Nekst Black";
+    font-size: 100px;
+    color: #FFDF37;
+}
+
+#Berlin {
+    align-self: flex-end;
+    margin-right: 190px;
+}
+
+#Leipzig {
+    margin-left: 10px;
+}
+
+.h2_map_main {
+    width: 1290px;
+    height: 550px;
+    margin-top: 280px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h2_map {
+    font-family: "Nekst Semibold";
+    font-size: 70px;
+    color: black;
+}
+
+#Zorbig {
+    margin-left: 30px;
+}
+
+#Beelitz {
+    align-self: flex-end;
+    margin-right: 80px;
+}
+
+
+.h3_map_main {
+    width: 1080px;
+    height: 530px;
+    margin-top: 270px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h3_map {
+    font-family: "Nekst Medium";
+    font-size: 50px;
+    color: #F44;
+}
+
+#Schwielowsee {
+    margin-top: 100px;
+}
+
+#Elsholz {
+    align-self: flex-end;
+    margin-right: 60px;
+}
+
+#Teltow {
+    align-self: flex-end;
+    margin-right: 90px;
+}
+
+.p_map_main {
+    width: 1080px;
+    height: 780px;
+    margin-top: 200px;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p_map {
+    font-family: "Nekst Regular";
+    font-size: 40px;
+
+}
+
+#km52 {
+    rotate: -7deg;
+    margin-left: 170px;
+    align-self: start;
+}
+
+#km100 {
+    rotate: 7deg;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+#km120 {
+    rotate: -8deg;
+    margin-top: 100px;
+    margin-right: 320px;
+}
+
+#km40 {
+    rotate: 4deg;
+    margin-left: 400px;
+}
+
+/* ЭКРАН АЛЬТЕРНАТИВЫ */
+
+.section_alt {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+
+}
+
+.text_alt {
+    margin-left: 60px;
+}
+
+.blocks_alt {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.left_alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.right_alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.centre_alt {
+    display: flex;
+    align-items: center;
+
+    background-color: #FFDF37;
+    border-radius: 35px;
+
+    height: 1340px;
+}
+
+.block_ampersand {
+    padding: 20px 35px 20px 35px;
+
+    background-color: white;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+
+    outline: 15px solid #f44;
+    text-align: center;
+
+    box-shadow:
+        0 0 0 20px hsl(0, 0%, 0%);
+}
+
+.ampersand {
+    width: 240px;
+    padding-bottom: 15px;
+    margin: 15px 0 20px 0;
+
+    background-color: white;
+    border: 5px solid #000;
+
+    border-radius: 12px;
+}
+
+.p_alt {
+    font-family: "Nekst Medium";
+    font-size: 40px;
+}
+
+.ampersand p {
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.h1_alt {
+    font-family: "Nekst Medium";
+    font-size: 300px;
+    margin: 0 0 0 0;
+}
+
+.block_K {
+    padding: 65px 45px 65px 45px;
+
+    background-color: white;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+
+    outline: 15px solid #FFDF37;
+    text-align: center;
+
+    box-shadow:
+        0 0 0 20px hsl(0, 0%, 0%);
+}
+
+.K {
+    width: 240px;
+    padding-bottom: 15px;
+    margin: 15px 0 20px 0;
+
+    background-color: white;
+    border: 5px solid #000;
+
+    border-radius: 12px;
+}
+
+.K p {
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+.block_centre {
+    padding: 35px 35px 35px 35px;
+    margin-bottom: 200px;
+
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+
+    outline: 15px solid #f44;
+    text-align: center;
+
+    box-shadow: 0 0 0 20px hsl(0, 0%, 0%);
+}
+
+.centre_K {
+    padding: 20px 10px 20px 10px;
+    margin: 35px 0 40px 0;
+
+    background-color: white;
+    border: 5px solid #000;
+
+    border-radius: 12px;
+}
+
+.centre_K p {
+    font-size: 50px;
+    margin-top: -35px;
+}
+
+#alternative_1 {
+    font-feature-settings: "aalt" on;
+}
+
+#alternative_2 {
+    font-feature-settings: "salt" on;
+}
+
+/* ЭКРАН ВЕЛОСИПЕДЫ */
+.section_bikes {
+    height: fit-content;
+    width: 100%;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 130px;
+}
+
+.first_bike {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bike_p {
+    font-family: "Nekst Black";
+    font-size: 47px;
+    rotate: -47deg;
+
+
+    z-index: 2;
+
+    position: absolute;
+}
+
+#bike_p_1 {
+    align-self: flex-end;
+
+    margin-top: 346px;
+    margin-right: 300px;
+}
+
+#bike_p_2 {
+    align-self: flex-end;
+
+    margin-top: 332px;
+    margin-left: 355px;
+
+    font-feature-settings: "aalt";
+}
+
+
+.bike_1 {
+    display: flex;
+    justify-content: flex-start;
+
+    flex-direction: column;
+    align-self: flex-end;
+
+    height: 510px;
+
+    z-index: -1;
+}
+
+#bike_1_1 {
+    width: 1200px;
+    align-self: flex-end;
+
+    z-index: 1;
+}
+
+#bike_2_2 {
+    width: 1100px;
+    align-self: flex-start;
+
+    position: relative;
+}
+
+.bike_2 {
+    height: 535px;
+}
+
+#line_1 {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    top: 324px;
+    left: -62px;
+
+    z-index: -2;
+}
+
+#line_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    z-index: -2;
+}
+
+
+#line_2_2 {
+    position: absolute;
+    margin-top: 115px;
+}
+
+
+.line_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    z-index: -1;
+}
+
+#line_3_2 {
+    margin-top: 160px;
+
+    position: absolute;
+}
+
+/* ЭКРАН ЗНАКИ */
+
+.section_signs {
+    padding-left: 60px;
+    padding-right: 60px;
+
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 60px;
+}
+
+#signs_p {
+    position: absolute;
+}
+
+.signs_blocks {
+    position: relative;
+    height: fit-content;
+
+    flex-wrap: wrap;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    flex-direction: row;
+
+    gap: 25px;
+}
+
+.p_sign {
+    font-family: "Nekst Medium";
+}
+
+.sign_10km {
+    text-align: center;
+
+    width: 575px;
+    height: 575px;
+
+    background-color: #F44;
+
+    border-radius: 50px;
+    border: solid white 30px;
+
+    outline: 6px solid black;
+}
+
+#arrow_10km {
+    font-size: 480px;
+    color: white;
+    font-feature-settings: 'dlig' on, 'ss04' on;
+
+    margin-top: -60px;
+}
+
+#text_10km {
+    font-size: 160px;
+    color: white;
+
+    margin-top: -40px;
+
+    font-variant-numeric: lining-nums tabular-nums;
+    font-feature-settings: 'dlig' on, 'ss04' on;
+}
+
+.sign_berlin {
+    margin-top: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 415px;
+    height: 700px;
+
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 45px;
+    border: solid rgb(0, 0, 0) 6px;
+}
+
+#arrow_berlin {
+    font-size: 300px;
+    color: #F44;
+}
+
+#text_berlin {
+    font-size: 100px;
+    color: #F44;
+
+    margin-bottom: 100px;
+}
+
+.sign_98velo {
+    margin-top: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 190px;
+    height: 450px;
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 30px;
+    border: solid #F44 6px;
+}
+
+#arrow_velo {
+    font-size: 100px;
+    color: #F44;
+
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-feature-settings: 'dlig' on, 'ss04' on;
+}
+
+#text_velo {
+    font-size: 70px;
+    color: #F44;
+
+    margin-bottom: 20px;
+}
+
+.sign_123 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 193px;
+    height: 320px;
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 30px;
+    border: solid #FFDF37 6px;
+}
+
+#arrow_123 {
+    font-size: 100px;
+    font-feature-settings: 'dlig' on, 'ss03' on;
+    color: #F44;
+}
+
+.sign_6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 193px;
+    height: 160px;
+
+    background-color: rgb(255, 255, 255);
+
+    border-radius: 25px;
+    border: solid #F44 6px;
+}
+
+#arrow_6 {
+    margin-top: 10px;
+
+    font-size: 100px;
+    font-feature-settings: 'dlig' on, 'ss03' on;
+    color: #FFDF37;
+}
+
+.sign_18km {
+    margin-top: -150px;
+    margin-left: 240px;
+
+    text-align: center;
+
+    width: 358px;
+    height: 358px;
+
+    background-color: #F44;
+
+    border-radius: 30px;
+    border: solid white 20px;
+
+    outline: 6px solid black;
+}
+
+#arrow_18km {
+    margin-top: -15px;
+
+    font-size: 300px;
+    color: white;
+}
+
+#text_18km {
+    margin-top: -60px;
+
+    font-size: 100px;
+    font-feature-settings: 'dlig' on, 'ss04' on;
+    color: white;
+}
+
+.sign_14 {
+    margin-top: -150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 154px;
+    height: 357px;
+
+    background-color: #F44;
+
+    border-radius: 30px;
+    border: solid white 20px;
+
+    outline: 6px solid black;
+}
+
+#arrow_14 {
+    font-size: 100px;
+    color: #FFDF37;
+    font-variant-numeric: diagonal-fractions;
+    font-feature-settings: 'dlig' on;
+
+    text-align: center;
+}
+
+.sign_arrow {
+    margin-top: -250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 355px;
+    height: 355px;
+
+    background-color: white;
+
+    border-radius: 50%;
+    border: solid #F44 35px;
+}
+
+#line_arrow {
+    position: absolute;
+
+    width: 30px;
+    height: 355px;
+    rotate: 30deg;
+
+    background-color: #F44;
+
+}
+
+#arrow_arrow {
+    font-size: 370px;
+    color: #FFDF37;
+    font-feature-settings: 'dlig' on, 'ss05' on;
+
+    margin-bottom: 25px;
+}
+
+.sign_61 {
+    margin-top: -180px;
+    margin-left: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 220px;
+    height: 220px;
+
+    background-color: #FFDF37;
+
+    border-radius: 20px;
+    border: solid white 30px;
+
+    outline: 6px solid #F44;
+
+    rotate: 45deg;
+}
+
+#arrow_61 {
+    font-size: 140px;
+    color: white;
+
+    rotate: -45deg;
+}
+
+.sign_751 {
+    margin-top: -220px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrow_751 {
+    position: absolute;
+    margin-bottom: -60px;
+
+    text-align: center;
+    line-height: 110px;
+
+    font-size: 140px;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'dlig' on, 'ss02' on;
+
+    color: #F44;
+}
+
+.signs_last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+/* ЭКРАН БУКВЫ */
+.section_letters {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 1540px;
+}
+
+.letters_bg {
+    position: absolute;
+
+    width: 2000px;
+    height: 1520px;
+    background-color: #F44;
+
+    position: absolute;
+    rotate: -7deg;
+    z-index: -1;
+}
+
+.letters_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.letters_line {
+    position: absolute;
+    right: 0;
+
+    height: 5px;
+    width: 1440px;
+
+    background-color: #FFDF37;
+}
+
+#l_line_1 {
+    margin-top: 51px;
+}
+
+#l_line_2 {
+    margin-top: 133px;
+}
+
+#l_line_3 {
+    margin-top: 383px;
+}
+
+.letters_h1 {
+    font-family: "Nekst Black";
+    font-size: 490px;
+    letter-spacing: 10px;
+    word-spacing: -90px;
+
+    color: transparent;
+    -webkit-text-stroke: 10px #FFDF37;
+}
+
+.letters_p {
+    margin-top: -30px;
+
+    font-family: "Nekst Medium";
+    color: #FFDF37;
+    font-size: 35px;
+    line-height: 200%;
+    word-spacing: 9.7463px;
+    word-break: break-all;
+}
+
+.letters_a {
+    font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+.letters_b {
+    font-feature-settings: 'ss02' on;
+}
+
+.letters_c {
+    font-feature-settings: 'ss03' on;
+}
+
+.letters_d {
+    font-feature-settings: 'ss04' on;
+}
+
+.letters_e {
+    font-feature-settings: 'ss05' on;
+}
+
+/* ЭКРАН ФИНИШ */
+.section_finish {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 130px;
+}
+
+.section_finish svg {
+    margin-bottom: -270px;
+    z-index: -2;
+}
+
+.finish_h1 {
+    font-family: "Nekst Bold";
+}
+
+#f_finally {
+    font-size: 115px;
+    color: #f44;
+    background-color: #FFDF37;
+
+    padding: 40px 50px 30px 50px;
+
+    rotate: -30deg;
+
+    align-self: flex-start;
+}
+
+#f_finish {
+    margin-top: -100px;
+
+    font-size: 190px;
+    color: #f44;
+    background-color: #FFDF37;
+
+    padding: 70px 80px 60px 80px;
+
+    rotate: -15deg;
+
+    z-index: 1;
+}
+
+#f_berlin {
+    margin-top: -180px;
+    margin-right: -5px;
+
+    font-size: 115px;
+    color: #FFDF37;
+    background-color: #F44;
+
+    padding: 40px 50px 30px 50px;
+
+    rotate: -30deg;
+
+    align-self: flex-end;
+}
+
+#f_uraaaa {
+    margin-top: 40px;
+    margin-left: 25px;
+
+    font-size: 115px;
+    color: black;
+    background-color: #F44;
+
+    padding: 40px 50px 30px 50px;
+
+    rotate: 15deg;
+
+    align-self: flex-start;
+}
+
+#f_аaaaa {
+    margin-top: -180px;
+
+
+    font-size: 115px;
+    color: #f44;
+    background-color: #FFDF37;
+
+    padding: 40px 50px 30px 50px;
+
+    rotate: -7deg;
+
+    align-self: flex-end;
+}
+
+
+/* ФУТЕР */
+footer {
+    position: relative;
+
+    display: flex;
+    padding: 60px 60px 80px 60px;
+    align-items: baseline;
+
+    gap: 30px;
+
+    border-top: 10px solid #F44;
+    background: #FFDF37;
+}
+
+.footer_a {
+    width: 420px;
+
+    font-family: "Nekst Medium";
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+
+    font-feature-settings: "abvm";
+}
