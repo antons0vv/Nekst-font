@@ -164,7 +164,7 @@ body {
 }
 
 #wooow {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Black";
     font-size: 65px;
@@ -175,7 +175,7 @@ body {
 }
 
 #sporty {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Bold";
     font-size: 85px;
@@ -204,7 +204,7 @@ body {
 }
 
 #speed {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Bold";
     font-size: 65px;
@@ -244,7 +244,7 @@ body {
 }
 
 #team {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Medium";
     font-size: 42px;
@@ -254,7 +254,7 @@ body {
 }
 
 #sans {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Light";
     font-size: 62px;
@@ -274,7 +274,7 @@ body {
 }
 
 #races {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Regular";
     font-size: 50px;
@@ -294,7 +294,7 @@ body {
 }
 
 #super {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Regular";
     font-size: 150px;
@@ -304,7 +304,7 @@ body {
 }
 
 #road {
-    color: #FFDF37;
+    color: #FFD913;
 
     font-family: "Nekst Medium";
     font-size: 42px;
@@ -342,7 +342,7 @@ body {
 .weight_rec {
     width: 2000px;
     height: 1280px;
-    background-color: #FFDF37;
+    background-color: #FFD913;
 
     position: absolute;
     rotate: -7deg;
@@ -495,7 +495,7 @@ body {
 .h1_map {
     font-family: "Nekst Black";
     font-size: 100px;
-    color: #FFDF37;
+    color: #FFD913;
 }
 
 #Berlin {
@@ -656,7 +656,7 @@ body {
     display: flex;
     align-items: center;
 
-    background-color: #FFDF37;
+    background-color: #FFD913;
     border-radius: 35px;
 
     height: 1340px;
@@ -710,7 +710,7 @@ body {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 50%;
 
-    outline: 15px solid #FFDF37;
+    outline: 15px solid #FFD913;
     text-align: center;
 
     box-shadow:
@@ -902,6 +902,7 @@ body {
 
 #signs_p {
     position: absolute;
+    z-index: 1;
 }
 
 .signs_blocks {
@@ -1029,7 +1030,7 @@ body {
     background-color: rgb(255, 255, 255);
 
     border-radius: 30px;
-    border: solid #FFDF37 6px;
+    border: solid #FFD913 6px;
 }
 
 #arrow_123 {
@@ -1058,7 +1059,7 @@ body {
 
     font-size: 100px;
     font-feature-settings: 'dlig' on, 'ss03' on;
-    color: #FFDF37;
+    color: #FFD913;
 }
 
 .sign_18km {
@@ -1114,7 +1115,7 @@ body {
 
 #arrow_14 {
     font-size: 100px;
-    color: #FFDF37;
+    color: #FFD913;
     font-variant-numeric: diagonal-fractions;
     font-feature-settings: 'dlig' on;
 
@@ -1151,7 +1152,7 @@ body {
 
 #arrow_arrow {
     font-size: 370px;
-    color: #FFDF37;
+    color: #FFD913;
     font-feature-settings: 'dlig' on, 'ss05' on;
 
     margin-bottom: 25px;
@@ -1169,7 +1170,7 @@ body {
     width: 220px;
     height: 220px;
 
-    background-color: #FFDF37;
+    background-color: #FFD913;
 
     border-radius: 20px;
     border: solid white 30px;
@@ -1180,6 +1181,7 @@ body {
 }
 
 #arrow_61 {
+    margin-bottom: -15px;
     font-size: 140px;
     color: white;
 
@@ -1259,7 +1261,7 @@ body {
     height: 5px;
     width: 1440px;
 
-    background-color: #FFDF37;
+    background-color: #FFD913;
 }
 
 #l_line_1 {
@@ -1281,14 +1283,14 @@ body {
     word-spacing: -90px;
 
     color: transparent;
-    -webkit-text-stroke: 10px #FFDF37;
+    -webkit-text-stroke: 10px #FFD913;
 }
 
 .letters_p {
     margin-top: -30px;
 
     font-family: "Nekst Medium";
-    color: #FFDF37;
+    color: #FFD913;
     font-size: 35px;
     line-height: 200%;
     word-spacing: 9.7463px;
@@ -1340,7 +1342,7 @@ body {
 #f_finally {
     font-size: 115px;
     color: #f44;
-    background-color: #FFDF37;
+    background-color: #FFD913;
 
     padding: 40px 50px 30px 50px;
 
@@ -1354,7 +1356,7 @@ body {
 
     font-size: 190px;
     color: #f44;
-    background-color: #FFDF37;
+    background-color: #FFD913;
 
     padding: 70px 80px 60px 80px;
 
@@ -1368,7 +1370,7 @@ body {
     margin-right: -5px;
 
     font-size: 115px;
-    color: #FFDF37;
+    color: #FFD913;
     background-color: #F44;
 
     padding: 40px 50px 30px 50px;
@@ -1399,7 +1401,7 @@ body {
 
     font-size: 115px;
     color: #f44;
-    background-color: #FFDF37;
+    background-color: #FFD913;
 
     padding: 40px 50px 30px 50px;
 
@@ -1420,7 +1422,7 @@ footer {
     gap: 30px;
 
     border-top: 10px solid #F44;
-    background: #FFDF37;
+    background: #FFD913;
 }
 
 .footer_a {
